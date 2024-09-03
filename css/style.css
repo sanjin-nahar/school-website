@@ -1,0 +1,316 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root
+{
+    --PrimaryColor: #075e89;
+    --LightColor: #fff;
+    --SecondaryColor: #f99a00;
+    --DarkColor: #585858
+}
+
+.primary-color
+{
+    background-color: #075e89;
+}
+
+#topbar .fa-solid
+{
+    color: #075e89;
+
+}
+
+/*Header css*/
+.navbar-text-item span
+{
+    color: #075e89;
+}
+
+.top-header-span
+{
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+
+.hero .carousel-item img
+{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .carousel-item:before
+{
+    content: '';
+    background-color: #042e42;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .7;
+}
+
+.hero .carousel-item .carousel-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.hero .carousel-topics
+{
+    text-align: center;
+    width: 70%;
+}
+.hero .carousel-heading-topic
+{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+}
+.hero .carousel-heading-topic span
+{
+    color: #f99a00;
+}
+
+.hero .carousel-item p
+{
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/*contact css*/
+.masthead
+{
+    background-size: cover;
+    min-height: 230px;
+    position: relative;
+    color:#fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.4);
+}
+
+.masthead h1
+{
+    font-size: 60px;
+}
+.masthead h1:hover
+{
+    color:#f99a00;
+}
+.masthead p
+{
+    font-size:20px
+}
+.color-overlay
+{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    left:0;
+    background-color: rgba(0,0,0,.6);
+}
+
+.contact-page .fa-solid
+{
+    font-size: 40px;
+    cursor:pointer;
+}
+
+.contact-page .fa-solid:hover
+{
+    color:#075e89;
+}
+.contact-page .fa-brands{
+    font-size: 40px;
+    cursor:pointer;
+}
+.contact-page .fa-brands:hover{
+    color:#075e89;
+}
+.contact-details
+{
+    font-size:20px;
+    font-weight:600
+}
+.form-control
+{
+    height:40px;
+    width:80%;
+    background: #fff;
+    color:rgba(0,0,0,8);
+    font-size:14px;
+    border-radius: 2px;
+    border-shadow:none;
+    border:none;
+    border-bottom: 1px solid #075e89;
+}
+.btn-primary
+{
+    background-color: #075e89;
+    border: #075e89;
+
+}
+
+
+/*science*/
+.button-bg-size .btn-light
+{
+    font-size:20px;
+    width:20%;
+    height:80px;
+    background-color: #075e89;
+    color:#fff;
+}
+.button-bg-size .btn-light:hover
+{
+    background-color: #fff;
+    color: #075e89;
+}
+
+/*student-info*/
+.std-info .info-icons
+{
+    height: 60px;
+    width: 90px;
+    padding: 10px;
+}
+
+
+.std-info .card-title
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.std-info p
+{
+    font-size: 15px;
+}
+
+
+
+footer
+{
+    background: #075e89;
+    padding: 40px 0;
+}
+.single-box p
+{
+    color: #fff;
+    line-height: 1.9;
+}
+.single-box h3
+{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.single-box .card-area i
+{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.single-box ul
+{
+    list-style: none;
+    padding: 0;
+}
+.single-box ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+    font-weight: 100;
+}
+
+.single-box h2
+{
+    color:#fff;
+    font-size:20px;
+    font-weight: 700;
+}
+#basic-addon2
+{
+    background: #f99a00;
+    color: #fff;
+}
+.socials i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.img-wrapper
+{
+    max-width: 100%;
+    height:13em;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+img
+{
+    max-width:100%;
+    max-height:100%;
+}
+
+@media screen and(max-width: 600px){
+    .single-box
+    {
+        margin-bottom: 50px;
+    }
+    .form-control
+    {
+        width:100%;
+    }
+    .row* {
+        padding-left: 0;
+    }
+
+}
+
+
+@media  (min-width: 776px) and (max-width: 991px){
+    .single-box
+    {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
